@@ -12,7 +12,7 @@ function Home() {
             <p>A part picker website for computer components</p>
         </div>
         <Link to="/build">
-            <button >Click</button>
+            <button >Start Build</button>
         </Link>
         </>
     )

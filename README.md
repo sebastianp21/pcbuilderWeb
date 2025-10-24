@@ -39,4 +39,5 @@ To get a local copy up and running follow these simple example steps.
 Still in progress
 Website the help pick computer components that are compatible with each other
 
+link: https://pcpartpicker.com/list/ 
 
