@@ -1,0 +1,10 @@
+
+.land_build {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.build_title {
+margin:auto;
+}

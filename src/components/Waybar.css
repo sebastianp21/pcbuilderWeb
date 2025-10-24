@@ -1,0 +1,48 @@
+.NavigationHeader {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+
+}
+
+.NavNameDiv {
+    background-color: brown;
+    display: inline-block;
+
+}
+
+.NavName {
+    margin: 0;
+    font-size: large;
+}
+
+.SearchBar {
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    
+}
+
+.BarOptionDiv {
+    margin : 0;
+    background-color: brown;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+
+    
+}
+
+.BarOption {
+    margin: 0;
+    font-size: large;
+    padding-left: 3px;
+    padding-right: 3px;
+
+    border-left-width: 1em;
+    border-left: solid;
+    border-color: darkgrey;
+    
+}
