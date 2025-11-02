@@ -29,8 +29,6 @@ def fet_cpus():
 
     return jsonify(cpus_list)
 
-def fet_cpu_front():
-    
 
 if __name__ == "__main__":
 
