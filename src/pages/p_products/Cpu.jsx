@@ -11,6 +11,15 @@ function Cpu() {
                 <div className="land_p_title">
                     <h1 className="p_title" >CPUs</h1>
                 </div>
+                {/**
+                 * For CPUs, it shows
+                 * name core count performanceCoreclock perfCoreBoosClock MicroArquic TDP Integrated Price
+                 * use api for transfer specific data
+                 */}
+
+                <div>
+
+                </div>
 
             </div>
         </>
