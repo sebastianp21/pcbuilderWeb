@@ -1,0 +1,10 @@
+.land_p_title {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.p_title {
+margin:auto;
+}
+

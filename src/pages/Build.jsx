@@ -8,12 +8,19 @@ function Build() {
         <>
             <Waybar/>
             <div className="land_build">
-                <h1 className="build_title" >Choose Your Parts</h1>
+                <div className="land_build_div_title">
+                    <h1 className="build_title" >Choose Your Parts</h1>
+                </div>
+                <div className="build_selectionList">
+                    <div className="b_component">Cpu</div>
+                    <div className="b_component">Motherboard</div>
+                    <div className="b_component">Memory</div>
+                    <div className="b_component">Storage</div>
+                    {/**
+                     * Make component for build sections cpu, motherboard selections
+                     */}
+                </div>
 
-                {/*add pc components
-                is based on products page 
-                
-                */}
             </div>
         </>
     )

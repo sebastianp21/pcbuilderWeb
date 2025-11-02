@@ -1,5 +1,5 @@
 
-.land_build {
+.land_build_div_title {
     display: flex;
     justify-content: center;
     align-items: center ;
@@ -7,4 +7,14 @@
 
 .build_title {
 margin:auto;
+}
+
+.build_selectionList {
+    justify-content: center;
+    background-color:#bc8da0;
+    margin: 10%
+}
+
+.b_component {
+    margin:auto
 }
