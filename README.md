@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
   ```
 
 ### Installation
-
+## Frontend
 1. Clone the repo branch 
    ```sh
    git clone https://github.com/sebastianp21/pcbuilderWeb.git
@@ -32,6 +32,20 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm run dev
    ```
+4. if doesnt run, install node.js
+## Backend
+1. Cd to api folder
+   ```sh
+   cd api
+   ```
+2. run api
+   ```sh
+   python api.py
+   ```
+3.If doesnt run, install python, flask
+   Here is a guide:
+   https://blog.miguelgrinberg.com/post/create-a-react-flask-project-in-2025
+
 
 
 ## Usage
