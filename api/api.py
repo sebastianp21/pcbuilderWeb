@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 #call for time
-@app.route('/time')
+@app.route('/api/time')
 def fet_current_time():
     return {'time': time.time()}
 
