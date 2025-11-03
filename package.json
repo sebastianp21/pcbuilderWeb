@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "BROWSER='opera' vite",
+    "dev": "vite",
     "start-api": "cd api && .venv/bin/flask run --no-debugger",
     "build": "vite build",
     "lint": "eslint .",
