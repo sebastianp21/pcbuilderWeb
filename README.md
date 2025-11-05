@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 ## Frontend
-1. Clone the repo branch 
+1. Clone the repo branch or download it
    ```sh
    git clone https://github.com/sebastianp21/pcbuilderWeb.git
    ```
@@ -47,7 +47,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    python api.py
    ```
-5. If doesnt run, install python
+5. If doesnt run, install python, pip
    Here is a guide:
    https://blog.miguelgrinberg.com/post/create-a-react-flask-project-in-2025
 
