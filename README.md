@@ -42,13 +42,14 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    pip install flask flask_cors
    ```
-3.If doesnt run, install python
-   Here is a guide:
-   https://blog.miguelgrinberg.com/post/create-a-react-flask-project-in-2025
+
 4. run api
    ```sh
    python api.py
    ```
+5. If doesnt run, install python
+   Here is a guide:
+   https://blog.miguelgrinberg.com/post/create-a-react-flask-project-in-2025
 
 
 
