@@ -16,7 +16,7 @@ export default  function Waybar() {
 
                     <div className='BarOptionDiv'>
                         <Link to="/build">
-                        <h2 className='BarOption'>Build</h2>
+                        <h2 className='BarOption'>🛠️ Build</h2>
                         </Link>
                     </div>
 
