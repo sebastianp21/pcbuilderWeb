@@ -18,6 +18,7 @@ function Home() {
         <div className="landpage_container">
             <h1 className="landName">PcBuilder</h1>
             <p>A part picker website for computer components</p>
+            <p>Inspiration page:<a href="https://pcpartpicker.com/">pcpartpicker</a></p>
         </div>
         <Link to="/build">
             <button >Start Build</button>
