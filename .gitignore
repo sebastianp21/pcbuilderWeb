@@ -14,6 +14,7 @@ dist
 dist-ssr
 *.local
 venv
+virtual
 
 # Editor directories and files
 .vscode/*
