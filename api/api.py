@@ -26,8 +26,33 @@ def fet_cpus():
         with open(new_path,'r') as json_file:
             data = json.load(json_file)
             cpus_list.append(data)
+    
+
 
     return jsonify(cpus_list)
+
+@app.route('/api/cpu/sortbyName')
+def fet_SortCPUsByName():
+    cpus_list = []
+
+    path_to_CPUs = r'./data/open-db/CPU/'
+
+    if not os.path.exists(path_to_CPUs):1
+        return jsonify({"error":"CPU data folder not found"})
+
+    for file_name in [file for file in os.listdir(path_to_CPUs) if file.endswith('.json')]:
+        new_path = os.path.join(path_to_CPUs,file_name)
+
+        with open(new_path,'r') as json_file:
+            data = json.load(json_file)
+            cpus_list.append(data)
+    #start sorting by name:
+    #metadata.name
+
+    
+
+    return jsonify(cpus_list)
+
 
 
 if __name__ == "__main__":
