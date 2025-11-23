@@ -17,8 +17,8 @@ def insertionSort(arr, key=lambda x : x):
         arr[j + 1] = k
     return arr
 #TESTS
-arr = [{'name': 'Kevin', 'age': 19}, {'name': 'Harry', 'age': 20}, {'name': 'Robin', 'age': 21}]
+#arr = [{'name': 'Kevin', 'age': 19}, {'name': 'Harry', 'age': 20}, {'name': 'Robin', 'age': 21}]
 
-ans =insertionSort(arr,key=lambda item: item['name']) 
+#ans =insertionSort(arr,key=lambda item: item['name']) 
 
-print(ans)
+#print(ans)
