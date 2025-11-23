@@ -1,0 +1,25 @@
+.specsbars_cont {
+    border-bottom: 1px black solid;
+    padding-bottom: 2px;
+    display: flex;
+    column-gap: 30px;
+
+
+}
+.specsbars_div {
+    flex: 1;
+}
+
+.specButton {
+    display: flex;
+    align-items: center;
+}
+
+.specButton span{
+    font-size: 20px;
+}
+
+.specsFont {
+    font-size: medium;
+    display: inline-block;
+}

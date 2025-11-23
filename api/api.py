@@ -30,7 +30,7 @@ def fet_cpus():
 
 
     return jsonify(cpus_list)
-
+'''
 @app.route('/api/cpu/sortbyName')
 def fet_SortCPUsByName():
     cpus_list = []
@@ -52,6 +52,7 @@ def fet_SortCPUsByName():
     
 
     return jsonify(cpus_list)
+'''
 
 
 

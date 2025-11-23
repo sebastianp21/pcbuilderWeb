@@ -1,5 +1,6 @@
 import "./Cpu.css"
 import Waybar from "../../components/Waybar"
+import Specsbar from "../../components/Specsbar";
 import { useEffect, useState } from "react"
 
 function Cpu() {
@@ -32,28 +33,31 @@ function Cpu() {
 
 
 
-
                 {/**
                  * For CPUs, it shows
                  * name core count performanceCoreclock perfCoreBoosClock MicroArquic TDP Integrated Price
                  * use api for transfer specific data
+                 * NEEDS TO ADD TDP AND PRICE EXACT
                  */}
-                <div className="cpu_products">
-                    {cpus.map((cpu,index) =>(
-                        <div className="cpu_item_row"key={index}>
-                            <div className="cpu_item_specs">{cpu.metadata.name}</div>
-                            <div className="cpu_item_specs">{cpu.cores.total}</div>
-                            <div className="cpu_item_specs">{cpu.clocks.performance.base}</div>
-                            <div className="cpu_item_specs">{cpu.clocks.performance.boost}</div>
-                            <div className="cpu_item_specs">{cpu.microarchitecture}</div>
-                            <div className="cpu_item_specs">{cpu.tdp}</div>
-                            <div className="cpu_item_specs">Price
-                                <button>Add</button>
+                 <div className="cpu_productsUI">
+                    <Specsbar/>
+
+                    <div className="cpu_products">
+                        {cpus.map((cpu,index) =>(
+                            <div className="cpu_item_row"key={index}>
+                                <div className="cpu_item_specs">{cpu.metadata.name}</div>
+                                <div className="cpu_item_specs">{cpu.cores.total}</div>
+                                <div className="cpu_item_specs">{cpu.clocks.performance.base}</div>
+                                <div className="cpu_item_specs">{cpu.clocks.performance.boost}</div>
+                                <div className="cpu_item_specs">{cpu.microarchitecture}</div>
+                                <div className="cpu_item_specs">Price
+                                    <button>Add</button>
+                                </div>
+                                
                             </div>
-                            
-                        </div>
-                    ))}
-                </div>
+                        ))}
+                    </div>
+                 </div>
                 
 
             </div>
