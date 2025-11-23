@@ -1,0 +1,25 @@
+.land_p_title {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.p_title {
+margin:auto;
+}
+
+
+.cpu_products {
+    height: 100vh;
+}
+
+.cpu_item_row {
+    display: flex;
+    column-gap: 20px;
+    border-bottom: 1px black solid;
+    padding-bottom: 2px;
+}
+
+.cpu_item_specs {
+    flex: 1;
+}

@@ -14,7 +14,7 @@ function Build() {
                 </div>
                 <div className="build_selectionList">
                     <Link to={"/products/cpu"}><div className="b_component">Cpu</div></Link>
-                    <div className="b_component">Motherboard</div>
+                    <Link to={"/products/moth"}><div className="b_component">Motherboard</div></Link>
                     <div className="b_component">Memory</div>
                     <div className="b_component">Storage</div>
                     {/**
