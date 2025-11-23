@@ -1,5 +1,5 @@
 .specsbars_cont {
-    border-bottom: 1px black solid;
+    
     padding-bottom: 2px;
     display: flex;
     column-gap: 30px;
@@ -8,6 +8,13 @@
 }
 .specsbars_div {
     flex: 1;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+.specsbars_div:hover {
+
+    border-bottom: 1px white solid;
+    cursor: pointer;
 }
 
 .specButton {

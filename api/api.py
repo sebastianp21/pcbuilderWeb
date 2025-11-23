@@ -57,10 +57,6 @@ def fet_SortCPUsByName():
 
     return jsonify(cpuName)
 
-    
-
-    return jsonify(cpus_list)
-
 
 
 
