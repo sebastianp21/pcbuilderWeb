@@ -57,8 +57,9 @@ link: https://pcpartpicker.com/list/
 DB from https://github.com/buildcores/buildcores-open-db#
 
 For ssh and git access comands:
-https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
+Starting with a ssh key:(setupa, connnect and test) (look for your OS)
+https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
-https://stackoverflow.com/questions/60757334/git-push-from-visual-studio-code-no-anonymous-write-access-authentication-fai
 
-https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git 
+For github keep asking for username and password but no ssh:
+https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
