@@ -2,8 +2,9 @@ import './Specsbar.css'
 
 export default function Specsbar() {
 
-
-
+    {/**
+        Change const to Name : 'cpu.metadata.name'
+        */}
     const dataSpecsCPU = {
         specName : 'Name',
         specCores : 'Core Count',
