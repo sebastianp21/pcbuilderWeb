@@ -8,9 +8,11 @@
 margin:auto;
 }
 
-.cpu_products{
-    margin: 20px;
+
+.cpu_products {
+    height: 100vh;
 }
+
 .cpu_item_row {
     display: flex;
     column-gap: 20px;
