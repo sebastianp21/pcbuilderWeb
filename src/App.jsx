@@ -4,6 +4,7 @@ import Build from './pages/Build'
 import './App.css'
 import Products from './pages/Products'
 import Cpu from './pages/p_products/Cpu'
+import Moth from './pages/p_products/Moth'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/products" element= {<Products/>}/>
 
         <Route path="/products/cpu" element= {<Cpu/>}/>
+        <Route path="/products/moth" element= {<Moth/>}/>
         
       </Routes>
     </BrowserRouter>

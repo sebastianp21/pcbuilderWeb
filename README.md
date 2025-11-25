@@ -11,12 +11,6 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 ## Frontend
@@ -60,3 +54,11 @@ Website the help pick computer components that are compatible with each other
 
 link: https://pcpartpicker.com/list/ 
 DB from https://github.com/buildcores/buildcores-open-db#
+
+For ssh and git access comands:
+Starting with a ssh key:(setupa, connnect and test) (look for your OS)
+https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection
+
+For github keep asking for username and password but no ssh:
+https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
