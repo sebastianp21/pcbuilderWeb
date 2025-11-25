@@ -1,5 +1,6 @@
 import "./Cpu.css"
 import Waybar from "../../components/Waybar"
+import Specsbar from "../../components/Specsbar";
 import { useEffect, useState } from "react"
 
 function Cpu() {
