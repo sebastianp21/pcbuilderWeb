@@ -14,12 +14,19 @@ function Home() {
       });
   }, []);
 
-    return (
-        <>
-        <Waybar/>
-        <div className="landpage_container">
-            <h1 className="landName">PcBuilder</h1>
-            <p>A part picker website for computer components.</p>
+  return (
+    <>
+      <Waybar />
+      <div className="landpage_container">
+        <h1 className="landName enhanced-headline">Build your custom PC with ease</h1>
+        <p className="subtitle">
+          A part picker website for computer components
+        </p>
+        <div className="time_card">
+          <span className="clock_icon" role="img" aria-label="clock">
+            🕒 Last Refresh: 
+          </span>
+          <span>{new Date(currentTime * 1000).toLocaleString()}</span>
         </div>
         <Link to="/build">
           <button className="build-btn">
