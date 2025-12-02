@@ -65,33 +65,33 @@ https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
 
 
 ### FOR MAC USERS
-(run the program)
+RUN FRONTEND AND BACKEND
 ## Frontend
 1. Go to your project folder (go to the pcbuilderWeb folder)
    ```sh
    cd pcbuilderWeb
    ```
-3. To run 
+2. To run 
    ```sh
    npm run dev
    ```
 ## Backend 
 # IN ANOTHER TERMINAL
 (repeat every time run the backend)(each command is run in the api folder)
-0. Go to the api folder(once in pcbuilderWeb folder)
+1. Go to the api folder(once in pcbuilderWeb folder)
 ```sh
    cd api
    ```
-1. Create enviroment in the api folder(the api folder is in the pcbuilderWeb folder)
+2. Create enviroment in the api folder(the api folder is in the pcbuilderWeb folder)
 ```sh
    python3 -m venv venv
    source ./venv/bin/activate
    ```
-2. Install flask and flask_cors
+3. Install flask and flask_cors
    ```sh
    pip install flask flask_cors
    ```
-3. Run api.py
+4. Run api.py
    ```sh
    python api.py
    ```
