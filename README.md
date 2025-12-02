@@ -62,3 +62,25 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-
 
 For github keep asking for username and password but no ssh:
 https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
+
+
+###FOR MAC USERS(run the program)
+##Frontend
+1. To run (go to the pcbuilderWeb folder)
+   ```sh
+   npm run dev
+   ```
+##Backend (repeat every time run the backend)(each command is run in the api folder)
+1.Create enviroment in the api folder(the api folder is in the pcbuilderWeb folder)
+```sh
+   python3 -m venv venv
+   source ./venv/bin/activate
+   ```
+2. Install flask and flask_cors
+   ```sh
+   pip install flask flask_cors
+   ```
+3. Run api.py
+   ```sh
+   python api.py
+   ```
