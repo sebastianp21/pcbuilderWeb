@@ -67,13 +67,22 @@ https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
 ### FOR MAC USERS
 (run the program)
 ## Frontend
-1. To run (go to the pcbuilderWeb folder)
+1. Go to your project folder (go to the pcbuilderWeb folder)
+   ```sh
+   cd pcbuilderWeb
+   ```
+3. To run 
    ```sh
    npm run dev
    ```
 ## Backend 
+# IN ANOTHER TERMINAL
 (repeat every time run the backend)(each command is run in the api folder)
-1.Create enviroment in the api folder(the api folder is in the pcbuilderWeb folder)
+0. Go to the api folder(once in pcbuilderWeb folder)
+```sh
+   cd api
+   ```
+1. Create enviroment in the api folder(the api folder is in the pcbuilderWeb folder)
 ```sh
    python3 -m venv venv
    source ./venv/bin/activate
