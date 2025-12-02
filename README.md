@@ -65,7 +65,7 @@ https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
 
 
 ### FOR MAC USERS
-RUN FRONTEND AND BACKEND
+RUN FRONTEND AND BACKEND IN DIFFERENT TERMINALS
 ## Frontend
 1. Go to your project folder (go to the pcbuilderWeb folder)
    ```sh
