@@ -64,8 +64,8 @@ For github keep asking for username and password but no ssh:
 https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
 
 
-### FOR MAC USERS
-RUN FRONTEND AND BACKEND IN DIFFERENT TERMINALS
+## FOR MAC USERS
+# To run the program once installed, do frontend and backend in different terminals 
 ## Frontend
 1. Go to your project folder (go to the pcbuilderWeb folder)
    ```sh
