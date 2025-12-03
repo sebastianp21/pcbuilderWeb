@@ -15,6 +15,10 @@
   font-weight: 700;
 }
 
+.build_title {
+  text-align: center;
+}
+
 .buildRow {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -23,13 +27,14 @@
   padding: 14px 16px;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
-  background: #fff;
-  margin-bottom: 10px;
+  /* background: #fff; */
+  /* margin-bottom: 10px; */
+  margin: 10px 10vw;
 }
 
 .buildRowLabel {
   font-weight: 600;
-  color: #374151;
+  /* color: #374151; */
 }
 
 .buildRowSelection {
@@ -136,6 +141,6 @@
 }
 
 .partQty {
-  color: #6b7280;
+  /* color: #6b7280; */
   margin-left: 8px;
 }

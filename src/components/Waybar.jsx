@@ -45,11 +45,11 @@ export default  function Waybar() {
 
                 <div className='SearchBar'>
 
-                    <div className='BarOptionDiv'>
+                    {/* <div className='BarOptionDiv'>
                         <Link to="/build">
                         <h2 className='BarOption'>🛠️ Build</h2>
                         </Link>
-                    </div>
+                    </div> */}
 
                     <div className='BarOptionDiv'>
                         <Link to="/products">
@@ -62,8 +62,8 @@ export default  function Waybar() {
                     </div>
 
                     <div className='BarOptionDiv CartWrapper'>
-                        <button className='CartIcon' type='button' onClick={toggleOpen} aria-expanded={open} aria-label='Cart'>
-                            🛒
+                        <button className='CartIcon' type='button' onClick={toggleOpen} aria-expanded={open} aria-label='Build'>
+                            🛠️ Build
                             {totalCount > 0 && <span className='CartBadge'>{totalCount}</span>}
                         </button>
                         {open && (

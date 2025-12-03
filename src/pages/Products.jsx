@@ -16,9 +16,9 @@ function Products() {
                     <h2>Core</h2>
                     <ul>
                         <Link to={"/products/cpu"}><li>CPUs</li></Link>
-                        
+                        <Link to={"/products/moth"}><li>Motherboards</li></Link>
+                        {/* <li>Motherboards</li> */}
                         <li>CPU Coolers</li>
-                        <li>Motherboards</li>
                         <li>Memory</li>
                         <li>Storage</li>
                         <li>Video Cards</li>
