@@ -2,7 +2,7 @@ import time
 import os
 import json
 from flask import Flask, jsonify
-from sorting import insertionSort
+from sorting import insertionSort,quickSort
 
 app = Flask(__name__)
 
@@ -53,7 +53,9 @@ def fet_SortCPUsByName():
     #start sorting by name:
     #metadata.name
 
-    cpuName = insertionSort(cpus_list,key=lambda cpu:cpu['metadata']['name'])
+    #cpuName = insertionSort(cpus_list,key=lambda cpu:cpu['metadata']['name'])
+    #ans =quickSort(arr,key=lambda item: item['age'])
+    cpuName = quickSort(cpus_list,key=lambda cpu:cpu['metadata']['name'])
 
     return jsonify(cpuName)
 
