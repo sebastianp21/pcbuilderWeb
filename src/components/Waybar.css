@@ -1,48 +1,147 @@
 .NavigationHeader {
-    background-color:#a04668;
+    #background: rgba(160, 70, 104, 0.35);  /* semi-transparent color */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 16px 0 rgba(160,70,104,0.10);
     display: flex;
     justify-content: space-between;
-    margin: 0;
     align-items: center;
+    margin: 1rem 2rem;
+    padding: 0.8rem 2rem;
+    position: relative;
+    z-index: 2;
+}
 
+.NavigationHeader a,
+.NavigationHeader a:visited,
+.NavigationHeader a:hover,
+.NavigationHeader a:active {
+    text-decoration: none;
 }
 
 .NavNameDiv {
-    
     display: inline-block;
-
 }
 
 .NavName {
     margin: 0;
-    font-size: large;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .SearchBar {
     display: flex;
-    
     align-items: center;
-    
+    gap: 1rem;
 }
 
 .BarOptionDiv {
-    margin : 0;
-    
+    margin: 0;
     padding-bottom: 4px;
     padding-top: 4px;
-    
-
-    
 }
 
 .BarOption {
     margin: 0;
-    font-size: large;
-    padding-left: 3px;
-    padding-right: 3px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.4rem 1.2rem;
+    color: #fff;
+    border-left: 2px solid #d9d0de;
+    border-radius: 0.7rem;
+    transition: background 0.2s, color 0.2s;
+    cursor: pointer;
+    background: rgba(160, 70, 104, 0.07);
+}
 
-    border-left-width: 1em;
-    border-left: solid;
-    border-color: #d9d0de;
-    
+.BarOption:hover {
+    background: rgba(255,255,255,0.14);
+    color: #a04668;
+}
+
+@media (max-width: 600px) {
+    .NavigationHeader {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .SearchBar {
+        margin-top: 1rem;
+        justify-content: center;
+        gap: 0.6rem;
+    }
+    .NavName {
+        font-size: 1.3rem;
+    }
+    .BarOption {
+        font-size: 1rem;
+        padding: 0.3rem 0.8rem;
+    }
+}
+
+/* Cart UI */
+.CartWrapper {
+    position: relative;
+}
+.CartIcon {
+    position: relative;
+    font-size: 1.1rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.6rem;
+    background: rgba(255,255,255,0.04);
+    border: none;
+    cursor: pointer;
+}
+.CartIcon:hover {
+    background: rgba(255,255,255,0.1);
+}
+.CartBadge {
+    display: inline-block;
+    min-width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 999px;
+    background: #e15b5b;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0 6px;
+    margin-left: 6px;
+}
+.CartDropdown {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 8px);
+    min-width: 220px;
+    max-height: 300px;
+    overflow: auto;
+    background: #fff;
+    color: #222;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    padding: 8px;
+    z-index: 50;
+}
+.CartItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.CartItem:last-child { border-bottom: none; }
+.CartItemName {
+    font-size: 0.95rem;
+    color: #111;
+}
+.CartItemQty {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 8px;
+}
+.CartEmpty {
+    padding: 10px;
+    color: #666;
+    text-align: center;
 }
