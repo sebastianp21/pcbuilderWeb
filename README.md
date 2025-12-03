@@ -65,7 +65,7 @@ https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
 
 
 ## FOR MAC USERS
-# To run the program once installed, do frontend and backend in different terminals 
+## To run the program once installed, do frontend and backend in different terminals 
 ## Frontend
 1. Go to your project folder (go to the pcbuilderWeb folder)
    ```sh
@@ -76,7 +76,7 @@ https://mkyong.com/git/github-keep-asking-for-username-password-when-git-push/
    npm run dev
    ```
 ## Backend 
-# IN ANOTHER TERMINAL
+### in another terminal
 (repeat every time run the backend)(each command is run in the api folder)
 1. Go to the api folder(once in pcbuilderWeb folder)
 ```sh
